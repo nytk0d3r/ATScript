@@ -1,8 +1,7 @@
 #!/bin/bash
 clear
-echo "~nytk0d3r"       
+echo  -e "\033[32;5mSCRIPT BY nytk0d3r\033[0m"  
 echo "Original Script by Sync"                                                                                               
-
 
 HOST=""
 SERVER_PASSWORD=""
@@ -216,7 +215,7 @@ ${TARGET}vpnserver/vpncmd localhost /SERVER /PASSWORD:${SE_PASSWORD} /CMD Listen
 ${TARGET}vpnserver/vpncmd localhost /SERVER /PASSWORD:${SE_PASSWORD} /CMD ListenerCreate 4000
 ${TARGET}vpnserver/vpncmd localhost /SERVER /PASSWORD:${SE_PASSWORD} /CMD ListenerCreate 40000
 clear
-echo "Server configuration successful!"
+echo  -e "\033[32;5mServer configuration successful!\033[0m"
 echo " "
 echo "Host: ${HOST}"
 echo "Virtual Hub: ${HUB}"
